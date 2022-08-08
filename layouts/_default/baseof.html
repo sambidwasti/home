@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-<!-- Head call head.html -->
-<!--The dashes remove whitespace in Go templates. See: -->
-<!-- call head.html and all the components. -->
-<!-- The blocks can be overwritten when called using define. -->
 <head>
   {{- partial "head.html" . -}}
-  {{- block "head" . }}
-  {{- end }}
+  {{- block "head" . }} {{- end }}
   <title>
-    {{- block "title" . }}
-    {{- end }}
+    {{- block "title" . }} {{- end }}
   </title>
 </head>
 
@@ -20,9 +14,9 @@
   <!-- <script src="/js/jquery-3.6.0.min.js"></script> -->
 
   {{- partial "sections/header.html" . -}}
+<!--
   <div id="content">
-    {{- block "main" . }}
-    {{- end }}
+    {{- block "main" . }}{{- end }}
   </div>
   {{- partial "sections/footer/index.html" . -}}
 
@@ -33,7 +27,7 @@
   {{- end -}}
 
   {{- partial "scripts.html" . -}}
-
+-->
 </body>
 
 </html>

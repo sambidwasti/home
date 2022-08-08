@@ -56,3 +56,15 @@ toc:
 
 ##Homepage
 **index.html** at layouts folder.
+
+Index hase three blocks.
+###Head
+###Title
+
+### main.
+* In Main, when commented out about, it did not get removed at the header section but it removed the div with about.
+* When everything in main is commented, you still see the Recent Posts and bottom contact options.
+* So they must be in base of/ or footer.
+
+## Base of
+Has a footer element.
