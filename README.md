@@ -68,3 +68,11 @@ Index hase three blocks.
 
 ## Base of
 Has a footer element.
+
+## Java Script
+
+HTML is content of the webpage
+Java Script is behaviour of the element when a mouse is hovered.
+
+---
+## Socials at footer and at Hero.
