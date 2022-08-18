@@ -1,7 +1,7 @@
-baseURL: 'http://sambidwasti.github.io/blog1/'
+baseURL: 'www.example.org'
 languageCode: "en-us"
 title: "Sambid Wasti"       # Title at the Tab. goes to index.html -> base of.
-theme: hugo-coder         # Themes
+theme: hugo-profile         # Themes
 
 #Paginate: 3                   # no. of items in a page. default 10
 disqusShortname: gurusabarish #comment section disqus
