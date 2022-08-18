@@ -1,4 +1,4 @@
-baseURL: 'https://example.org/'  # need to change this
+baseURL: "http://sambidwasti.github.io/blog1/"
 languageCode: "en-us"
 title: "Sambid Wasti"       # Title at the Tab. goes to index.html -> base of.
 theme: hugo-profile         # Themes
