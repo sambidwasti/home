@@ -29,6 +29,7 @@ Followed youtube tutorial on girraffee academy to understand the setup, folders 
 * themes: pre built theme.
 
 ---
+...
 
 #Home Page
 > Need to modify 
