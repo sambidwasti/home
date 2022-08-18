@@ -1,3 +1,5 @@
+# [Blog1 site](https://sambidwasti.github.io/blog1/)
+
 # Notes on the modifcation
 
 Need to modify the pages. 
