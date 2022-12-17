@@ -1,6 +1,64 @@
 .fa-graduation-cap {
-    color: yellow !important;
-    fill : #000000 !important;
     background-color: #000000;
     border-color: blue;
+}
+
+#banner .banner{
+    display:flex;
+    background-color: rgb(59, 111, 70); 
+
+}
+
+#banner .navbar{
+
+    background-color: rgb(111, 59, 59); 
+
+}
+
+#banner .nav-btn{
+    color: blue;
+    /* var(--primary-color) !important; */
+    /* background-color: red;  */
+    border-radius: 10px !important;
+    border-width: 10px !important;
+    border: 1rem !important;
+    /* border-color:var(--primary-color) !important; */
+    border-color: greenyellow;
+    border: 2px solid blue !important;
+}
+
+
+#banner .navbar .navbar-nav{
+
+    color: var(--primary-color) !important;
+    /* background-color: rgb(231, 127, 196);   */
+    border-radius: 10px;
+    border-width: 10px;
+    border: 1rem;
+    /* border-color:var(--primary-color) !important; */
+    border-color: greenyellow;
+}
+
+#banner .navbar .navbar-nav a {
+    color: var(--text-color) !important; 
+    font-size: clamp(20px, 8vw, 30px);
+    border-color: greenyellow;
+    border: 1rem;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    color: var(--text-color);
+}
+.navbar-toggler svg {
+    fill: currentColor;
+    color: var(--text-color);
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 .05em;
+}
+.navbar-text {
+    font-size: 16px !important;
+    opacity: 0.95;
 }

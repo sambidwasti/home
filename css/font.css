@@ -18,3 +18,8 @@ body {
 .default-font, #default-font {
     font-family: "Roboto", sans-serif;
 }
+
+/* secondary font */
+.third-font, #third-font {
+    font-family: "Lora", serif;
+}
