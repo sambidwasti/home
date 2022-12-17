@@ -138,7 +138,10 @@ header .navbar {
 }
 
 #hero a.btn.social-icon:hover {
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    /* filter: ; */
+    filter: saturate(300%) contrast(1.2);
+
 }
 
 #hero a.btn {
@@ -161,15 +164,18 @@ header .navbar {
 }
 
 #hero a.btn.social-icon:hover {
-    background-color: var(--background-color) !important;
-    opacity: 0.7;
+    background-color: red;
+    /* var(--background-color) !important; */
+    /* opacity: 0.7; */
+    /* filter: brightness(1.2); */
 }
 
 #hero .hero-content > a {
     display: inline-block;
     text-decoration: none;
     width:100%;
-    color: var(--primary-color) !important;
+
+
 }
 
 #hero .hero-content > a::after {
