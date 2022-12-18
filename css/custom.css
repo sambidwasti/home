@@ -5,21 +5,26 @@
 }
 
 #banner .navbar{
-    background-color: slateblue;
-    /* background-color: transparent !important;  */
+    /* background-color: slateblue; */
 
+    background-color: transparent !important; 
+    
+}
+
+#banner .navContent{
+    
 }
 
 #banner .nav-btn{
-    color: blue;
+    /* color: blue; */
     /* var(--primary-color) !important; */
     /* background-color: red;  */
     border-radius: 10px !important;
     border-width: 10px !important;
     border: 1rem !important;
     /* border-color:var(--primary-color) !important; */
-    border-color: greenyellow;
-    border: 2px solid blue !important;
+    /* border-color: greenyellow; */
+    border: 2px solid rgb(196, 251, 244) !important;
 }
 
 
@@ -35,8 +40,8 @@
 }
 
 #banner .navbar .navbar-nav a {
-    color: var(--text-color) !important; 
-    font-size: clamp(20px, 8vw, 30px);
+    color: var(--primary-color) !important; 
+    font-size: clamp(20px, 20px, 30px);
     border-color: greenyellow;
     border: 1rem;
 }

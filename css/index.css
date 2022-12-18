@@ -196,7 +196,8 @@ header .navbar {
 
 /* about me */
 #about h3 {
-    color: var(--text-secondary-color) !important;
+    font-size: clamp(20px, 8vw, 40px);
+    color: var(--text-primary-color) !important;
 }
 
 #about .image img {
