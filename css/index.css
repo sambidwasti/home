@@ -392,8 +392,14 @@ header .navbar {
     color:var(--text-secondary-color);
 }
 
+#education h2 {
+    /* font-size: clamp(18px, 7vw, 35px); */
+    color: var(--text-primary-color) !important;
+
+}
+
 #education .container > h3 {
-    color: var(--text-secondary-color) !important;
+    color: var(--text-primary-color) !important;
 }
 
 #education .row .index {
@@ -406,6 +412,14 @@ header .navbar {
     background-color: var(--primary-color) !important;
     color: var(--secondary-color) !important;
     font-weight: bold;
+}
+
+#education .image * {
+    background-color: transparent !important;
+    padding: 0;
+    border: 0;
+    /* align-items: middle; */
+    vertical-align: center;
 }
 
 #education .card * {
