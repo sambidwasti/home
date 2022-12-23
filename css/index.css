@@ -261,7 +261,7 @@ header .navbar {
 }
 
 /* experience */
-
+/* 
 #experience h3 {
     color: var(--text-secondary-color) !important;
 }
@@ -382,7 +382,7 @@ header .navbar {
 #experience .experience-container .tab-content .tab-pane .featuredLink a.btn:hover {
     color: var(--text-color) !important;
     opacity: 0.7;
-}
+} */
 
 /* Education */
 

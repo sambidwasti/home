@@ -62,3 +62,122 @@
     font-size: 16px !important;
     opacity: 0.95;
 }
+
+/* 
+
+.vertical-tab
+{
+	-webkit-box-shadow: 0px 0px 14px -1px rgba(46,46,46,1);
+    -moz-box-shadow: 0px 0px 14px -1px rgba(46,46,46,1);
+    box-shadow: 0px 0px 14px -1px rgba(46,46,46,1);
+}
+
+a:hover,a:focus{
+    text-decoration: none;
+    outline: 0px;
+}
+.vertical-tab
+{
+    font-family: 'Poppins', sans-serif;
+    display: table;
+}
+.vertical-tab .nav-tabs
+{
+    display: table-cell;
+    width: 20%;
+    min-width: 20%;
+    vertical-align: top;
+    border: none;
+}
+
+
+.vertical-tab .nav-tabs li
+{
+   float: none;
+   vertical-align: top;
+   overflow: hidden;
+   border-bottom: 1px solid #3c8706;
+}
+
+.vertical-tab .nav-tabs li a
+{
+    color: #fff;
+    background-color: #77bf43;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 13px 10px 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s ease;
+	border-bottom: 1px solid #61ad2a;
+}
+
+
+.vertical-tab .nav-tabs li:last-child a{ margin-bottom: 0; }
+.vertical-tab .nav-tabs li a:hover,
+.vertical-tab .nav-tabs li.active a,
+.vertical-tab .nav-tabs li.active a:hover
+{
+    color: #fff;
+    background-color: #4ca70a;
+    border: none;
+}
+
+.vertical-tab .tab-content{
+    color: #fff;
+    background-color: transparent;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    padding: 15px 20px 10px;
+    margin-top: 10px;
+    display: table-cell;
+    position: relative;
+}
+.vertical-tab .tab-content h3
+{
+    color:aqua;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 7px 0;
+}
+
+@media only screen and (max-width: 479px){
+    .vertical-tab .nav-tabs
+	{
+        width: 100%;
+        border: none;
+        display: block;
+    }
+    .vertical-tab .nav-tabs li{ border-radius: 40px 40px 15px 0; }
+    .vertical-tab .tab-content
+	{
+        color:beige;
+        padding: 25px 20px;
+        margin-top: 0;
+        display: block;
+    }
+    .vertical-tab .tab-content h3{ font-size: 18px; }
+} */
+
+/* .nav-tabs{
+	float: left;
+  	margin-right: 20px;
+  	border: 1px solid #ccc;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	background: #ddd;  
+}
+.nav-tabs>li{
+	float: none;
+}
+.nav-tabs>li>a{
+	margin-right: 0;  
+}
+.tab-content{
+	border-top: 1px solid #ccc; 
+} */
