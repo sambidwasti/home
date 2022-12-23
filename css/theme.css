@@ -12,6 +12,8 @@
     --text-secondary-color: var(--text-secondary-color-dark) !important;
     --primary-color: var(--primary-color-dark);
     --secondary-color: var(--secondary-color-dark);
+    --link-color: var(--link-color-dark);
+    --link-color-glow: var(--link-color-glow-dark);
 }
 
 .text-secondary {
