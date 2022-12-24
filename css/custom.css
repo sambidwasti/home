@@ -1,3 +1,12 @@
+
+/* 
+-- Banner --
+-- exp-single -- for experience.
+
+*/
+
+/* --- BANNER --- */
+
 #banner .banner{
     display:flex;
     background-color: rgb(59, 111, 70); 
@@ -10,10 +19,6 @@
     background-color: transparent !important; 
     
 }
-
-/* #banner .navContent{
-    
-} */
 
 #banner .nav-btn{
     /* color: blue; */
@@ -63,121 +68,222 @@
     opacity: 0.95;
 }
 
-/* 
 
-.vertical-tab
-{
-	-webkit-box-shadow: 0px 0px 14px -1px rgba(46,46,46,1);
-    -moz-box-shadow: 0px 0px 14px -1px rgba(46,46,46,1);
-    box-shadow: 0px 0px 14px -1px rgba(46,46,46,1);
-}
-
-a:hover,a:focus{
-    text-decoration: none;
-    outline: 0px;
-}
-.vertical-tab
-{
-    font-family: 'Poppins', sans-serif;
-    display: table;
-}
-.vertical-tab .nav-tabs
-{
-    display: table-cell;
-    width: 20%;
-    min-width: 20%;
-    vertical-align: top;
-    border: none;
-}
+/*  --- Exp-Single --- */
 
 
-.vertical-tab .nav-tabs li
-{
-   float: none;
-   vertical-align: top;
-   overflow: hidden;
-   border-bottom: 1px solid #3c8706;
+
+
+
+/* table */
+#exp-single .page-content table {
+    width: auto;
+    border-radius: 5px;
+    padding: 0.1rem;
+    margin-bottom: 1.2em;
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+    opacity: 0.8;
 }
 
-.vertical-tab .nav-tabs li a
-{
-    color: #fff;
-    background-color: #77bf43;
-    font-size: 15px;
-    font-weight: 300;
+#exp-single .page-content table > tr {
+    height: 40px !important;
+}
+
+#exp-single .page-content table > thead > tr > th {
+    padding: 0.5rem !important;
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
+    border: 1px solid var(--secondary-color);
+    opacity: 0.9;
+}
+#exp-single .page-content table > tbody > tr > td {
+    padding: 0.5rem !important;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color) !important;
+    opacity: 0.9;
+}
+
+#exp-single .page-content table > thead > tr {
+    background-color: var(--secondary-color) !important;
+    color: var(--secondary-color) !important; 
+} 
+
+
+
+
+/* list */
+
+#exp-single .page-content ol, #single .page-content ul {
+    margin-bottom: 1.2em;
+    padding-left: 1.5em;
+    list-style-position: inside;
+    opacity: 0.9;
+}
+
+#exp-single .page-content ol li li, #single .page-content ul li li {
+    margin-bottom: 0.5em;
+    padding-left: 1.5em;
+}
+
+
+
+/* sidebar */
+
+#exp-single aside {
+    background-color: var(--secondary-color);
+    border-radius: .7rem;
+    padding: .7rem 1rem;
+    margin-bottom: 1em;
+}
+
+#exp-single .sticky-sidebar {
+  position: sticky;
+  top: 50px;
+}
+
+
+/* headings */
+
+#exp-single{
+    font-size:medium;
+}
+
+#exp-single h1{
+    color:var(--primary-color);
     text-align: center;
-    text-transform: uppercase;
-    padding: 13px 10px 10px;
-    margin: 0;
-    border-radius: 0;
+}
+
+#exp-single h2{
+    color:coral;
+    text-align: left;
+}
+
+#exp-single h3{
+    color:rgb(255, 173, 80);
+    text-align: left;
+    font-size:x-large;
+}
+
+#exp-single h4{
+    color:rgb(255, 208, 80);
+    text-align: left;
+    font-size:large;
+}
+
+#exp-single h5{
+    color:rgb(246, 230, 147);
+    text-align: left;
+}
+
+#exp-single h6{
+    color:rgb(247, 239, 195);
+    text-align: left;
+}
+
+#exp-single .page-content .date {
+    color: var(--primary-color);
+    font-size:large;
+}
+
+/*-- Table Of Contents --*/
+
+#exp-single aside.toc {
+    padding: .7rem 1rem;
+    text-decoration: none;
+}
+
+
+#exp-single .toc-content ul>li::marker{
+    content: "▹";
+    font-size:x-small;
+    /* padding-left: 10px ;
+    padding-right: 10px ; */
+}
+
+#exp-single .toc-content ul>li{
+    padding-left: 10px ;
+}
+
+#exp-single aside.toc h5 {
+    margin: .7em 0;
+    margin-bottom: 1em;
+    color: var(--text-color);
+}
+
+
+#exp-single aside.toc .toc-content ol li a, #exp-single aside.toc .toc-content ul li a {
+    font-size: medium;
+    font-weight:bold;
+    text-decoration: none;
+    color:coral;
+    /* color:var(--primary-color); */
+}
+
+#exp-single aside.toc .toc-content ol li a:hover, #exp-single aside.toc .toc-content ul li a:hover {
+    color: #edfd42;
+    opacity: 1.2;
+    filter: contrast(1.2);
+}
+
+#exp-single aside.toc .toc-content ol li a, #exp-single aside.toc .toc-content ul li li a {
+    font-size: smaller;
+    font-weight:normal;
+    color:rgb(255, 173, 80);
+}
+
+#exp-single aside.toc .toc-content ol li a, #exp-single aside.toc .toc-content ul li li li a {
+    font-size: small;
+    color:rgb(255, 208, 80);
+}
+
+
+/* Top scroll */
+
+#exp-single #topScroll {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
     border: none;
-    transition: all 0.3s ease;
-	border-bottom: 1px solid #61ad2a;
+    outline: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#exp-single #topScroll:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: .5s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 
-.vertical-tab .nav-tabs li:last-child a{ margin-bottom: 0; }
-.vertical-tab .nav-tabs li a:hover,
-.vertical-tab .nav-tabs li.active a,
-.vertical-tab .nav-tabs li.active a:hover
-{
-    color: #fff;
-    background-color: #4ca70a;
+
+
+/* ---- Main Page ---- */
+
+#main-page #topScroll {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
     border: none;
+    outline: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 10px;
 }
 
-.vertical-tab .tab-content{
-    color: #fff;
-    background-color: transparent;
-    font-size: 12px;
-    letter-spacing: 0.5px;
-    line-height: 25px;
-    padding: 15px 20px 10px;
-    margin-top: 10px;
-    display: table-cell;
-    position: relative;
+#main-page #topScroll:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: .5s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
-.vertical-tab .tab-content h3
-{
-    color:aqua;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0 0 7px 0;
-}
-
-@media only screen and (max-width: 479px){
-    .vertical-tab .nav-tabs
-	{
-        width: 100%;
-        border: none;
-        display: block;
-    }
-    .vertical-tab .nav-tabs li{ border-radius: 40px 40px 15px 0; }
-    .vertical-tab .tab-content
-	{
-        color:beige;
-        padding: 25px 20px;
-        margin-top: 0;
-        display: block;
-    }
-    .vertical-tab .tab-content h3{ font-size: 18px; }
-} */
-
-/* .nav-tabs{
-	float: left;
-  	margin-right: 20px;
-  	border: 1px solid #ccc;
-}
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
-	background: #ddd;  
-}
-.nav-tabs>li{
-	float: none;
-}
-.nav-tabs>li>a{
-	margin-right: 0;  
-}
-.tab-content{
-	border-top: 1px solid #ccc; 
-} */

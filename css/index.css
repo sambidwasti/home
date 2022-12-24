@@ -111,7 +111,6 @@ header .navbar {
     filter: contrast(1.1);
     transition: box-shadow 0.3s;
     padding: 0;
-    border: 0;
     border: 2px solid var(--secondary-color);
     border-radius: 1rem;
 }
@@ -453,3 +452,4 @@ header .navbar {
 #contact .btn:focus {
     box-shadow: none !important;
 }
+
