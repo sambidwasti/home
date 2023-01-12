@@ -110,7 +110,10 @@
     color: var(--secondary-color) !important; 
 } 
 
-
+#exp-single .page-content p{
+    margin-left:20px;
+    /* color:rgb(249, 234, 224); */
+}
 
 
 /* list */
