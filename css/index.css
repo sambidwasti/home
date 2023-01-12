@@ -259,38 +259,80 @@ header .navbar {
     width: 100%;
 }
 
-
 /* EDUCATION */
+/* --- Card--- */
 
-#education a {
-    
+#education .edu-card *{
+    background-color: var(--background-color) !important;
+    /* background-color: grey !important; */
+}
+
+#education .edu-card {
+    /* background-color: rgb(191, 255, 0) !important; */
+    padding: 2px;
+    /* border-radius: 1.5rem; */
+    /* box-shadow: 0px 8px 56px rgb(15 80 100 / 16%); */
+    /* border: 2px solid var(--text-secondary-color) !important; */
+    /* transition: box-shadow .2s linear,opacity .2s linear; */
+    /* transition: transform 0.2s; */
+}
+
+#education .edu-card img{
+    padding: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border-radius: 0;
+    background-color: var(--background-color) !important;
+    filter:sharpness(0.8)
+    opacity: 0.9;
+    /* background-color: red !important; */
+}
+
+/* #education .edu-card:hover {
+    transition: 0.3s;
+    box-shadow: 0 4px 11px rgb(15 80 100 / 16%);
+    border: 2px solid var(--primary-color) !important;
+} */
+
+#education .edu-card a {
     color: var(--link-color) ;
     text-decoration: underline;
-    opacity: 0.9;
+
 }
 
-#education a:hover{
+#education .edu-card a:hover{
     color: var(--link-color-glow);
-    filter: contrast(1.2);
+    /* filter: contrast(1.2); */
 
 }
 
-#education a:hover::after, #res-exp a:focus::after, #res-exp a:active::after {
+/* #education a:hover::after, #res-exp a:focus::after, #res-exp a:active::after {
     width: 100%;
-
-}
+} */
 
 #education .school{
     display: inline-flex;
     color:var(--text-secondary-color);
+    
 }
 
-#education h2 {
+#education .edu-card:hover {
+    box-shadow: 0 0 20px rgb(15 80 100 / 100%);
+    transition: transform 0.3s;
+    transform: translateY(-7px);
+    filter: contrast(1.0);
+    filter:saturate(1.5);
+    /* border: 2px solid !important; */
+}
+
+/* #education h2 { */
     /* font-size: clamp(18px, 7vw, 35px); */
-    color: var(--text-primary-color) !important;
+    /* color: var(--text-primary-color) !important;
 
-}
-
+} */
+/* 
 #education .container > h3 {
     color: var(--text-primary-color) !important;
 
@@ -306,30 +348,23 @@ header .navbar {
     background-color: var(--primary-color) !important;
     color: var(--secondary-color) !important;
     font-weight: bold;
-}
+} */
 
-#education .image * {
+/* #education .image * {
     background-color: transparent !important;
     padding: 0;
     border: 0;
-    object-fit: scale-down; 
+    object-fit: scale-down;  */
     /* align-items: middle;
     /* vertical-align: center; */
     /* height: max-height;
     width: auto; */
-}
+/* } */
 
-#education .card * {
-    background-color: var(--secondary-color) !important;
-}
 
-#education .card {
-    border-radius: 1.5rem;
-    box-shadow: 0px 8px 56px rgb(15 80 100 / 16%);
-    border: 2px solid var(--text-secondary-color) !important;
-    transition: box-shadow .2s linear,opacity .2s linear;
-    transition: transform 0.2s;
-}
+
+/* 
+
 
 #education .card .card-body {
     border-radius: 1.5rem;
@@ -342,11 +377,7 @@ header .navbar {
     }
 }
 
-#education .card:hover {
-    transition: 0.3s;
-    box-shadow: 0 4px 11px rgb(15 80 100 / 16%);
-    border: 2px solid var(--primary-color) !important;
-}
+
 
 #education .card .card-body .education-content a {
     color: var(--primary-color) !important;
@@ -386,7 +417,7 @@ header .navbar {
 
 #education .card .card-body a.btn:hover {
     opacity: 0.8;
-}
+} */
 
 /* Skills */
 
