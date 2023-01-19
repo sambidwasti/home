@@ -2,6 +2,8 @@
 /* 
 -- Banner --
 -- exp-single -- for experience.
+-- skills --
+-- Main page--
 
 */
 
@@ -9,15 +11,12 @@
 
 #banner .banner{
     display:flex;
-    background-color: rgb(59, 111, 70); 
-
+    
 }
 
 #banner .navbar{
     /* background-color: slateblue; */
-
     background-color: transparent !important; 
-    
 }
 
 #banner .nav-btn{
@@ -26,55 +25,71 @@
     /* background-color: red;  */
     border-radius: 10px !important;
     border-width: 10px !important;
-    border: 1rem !important;
-    /* border-color:var(--primary-color) !important; */
-    /* border-color: greenyellow; */
-    border: 2px solid rgb(196, 251, 244) !important;
+    border: 2px solid rgb(174, 248, 226) !important;
 }
 
-
-#banner .navbar .navbar-nav{
-
-    color: var(--primary-color) !important;
-    /* background-color: rgb(231, 127, 196);   */
-    border-radius: 10px;
-    border-width: 10px;
-    border: 1rem;
-    /* border-color:var(--primary-color) !important; */
-    border-color: greenyellow;
+#banner .nav-btn:hover{
+    border: 2px solid rgb(197, 245, 244) !important;
+    box-shadow: 0 0 20px rgb(255, 255, 241);
+    transition: transform 0.5s;
+    transform: scale(1.1,1.1);
+    filter: contrast(1.0);
+    filter:saturate(1.5);
 }
 
+#banner .navbar .navbar-nav a:hover {
+    color: rgb(181, 249, 246) !important;
+    filter: contrast(1.0);
+    filter:saturate(1.5);
+}
+ 
 #banner .navbar .navbar-nav a {
     color: var(--primary-color) !important; 
     font-size: clamp(20px, 20px, 30px);
-    border-color: greenyellow;
-    border: 1rem;
 }
 
-.navbar-toggler {
-    border: none;
-    outline: none;
+
+
+
+
+
+/* -- skills --*/
+
+#skills .skill-box{
+    /* color:rgb(174, 248, 226); */
+    /* background-color: ; */
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+#skills h4{
+    color:rgb(248, 207, 174);
+    font-size: clamp(18px, 3vh ,20px) !important;
+    /* color: --text-color; */
+}
+
+#skills .page-content ul>li::marker{
+    content: "▹";
+    font-size:x-small;
+    color:rgb(248, 207, 174);
+    background-color: aquamarine; 
+}
+
+#skills .page-content ul>li{
+    padding-left: 10px ;
+}
+
+#skills .page-content h5 {
+    font-size: 17px;
     color: var(--text-color);
 }
-.navbar-toggler svg {
-    fill: currentColor;
-    color: var(--text-color);
-}
-.navbar-toggler:focus {
-    box-shadow: 0 0 0 .05em;
-}
-.navbar-text {
-    font-size: 16px !important;
-    opacity: 0.95;
-}
-
-
-/*  --- Exp-Single --- */
 
 
 
 
 
+
+/* -- Research Experience -- */
 /* table */
 #exp-single .page-content table {
     width: auto;
