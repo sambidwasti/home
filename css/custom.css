@@ -64,12 +64,12 @@
 
 #skills .page-content .col-content h6{
     color:rgb(248, 207, 174) !important;
-    font-size:  clamp(14px, 2vh ,18px) !important; 
+    font-size:  clamp(14px, 3vw ,18px) !important; 
     /* color: --text-color; */
 }
 
 #skills .page-content .col-content a{
-    font-size: 16px  clamp(12px, 2vh ,16px)!important;
+    font-size: clamp(12px, 2vw ,16px)!important;
 }
 
 #skills .page-content ul>li::marker{
