@@ -27,7 +27,7 @@
 } 
 
 #res-exp .top-section{
-    height: 130px;
+    /* height: 130px; */
     
 }
 
@@ -56,11 +56,11 @@
     object-fit: contain;
 }
 
-#res-exp .tab-content-additional {
+/* #res-exp .tab-content-additional {
     height: 475px;
     min-height: 475px;
     max-height: 475px;
-}
+} */
 
 #res-exp .image img:hover {
     box-shadow: 0 0 11px rgb(15 80 100 / 20%);
