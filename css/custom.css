@@ -62,10 +62,14 @@
     border-radius: 10px;
 }
 
-#skills h4{
-    color:rgb(248, 207, 174);
-    font-size: clamp(18px, 3vh ,20px) !important;
+#skills .page-content .col-content h6{
+    color:rgb(248, 207, 174) !important;
+    font-size:  clamp(14px, 2vh ,18px) !important; 
     /* color: --text-color; */
+}
+
+#skills .page-content .col-content a{
+    font-size: 16px  clamp(12px, 2vh ,16px)!important;
 }
 
 #skills .page-content ul>li::marker{

@@ -335,61 +335,6 @@ header .navbar {
 } 
 
 
-/* Skills */
-
-#skills a {
-    text-decoration: none;
-}
-
-#skills h3 {
-    color: var(--text-primary-color) !important;
-}
-
-#skills .card {
-    background-color: var(--secondary-color) !important;
-    border-radius: 1rem;
-    box-shadow: 0 0 36px rgba(0,0,0,0.1);
-    transform: translate3d(0, 0, 0);
-    transition: box-shadow .2s linear,opacity .2s linear;
-    border: 2px solid var(--text-secondary-color);
-}
-
-/* #skills a.card { Change Cursor.
-    cursor: alias;
-} */
-
-#skills .card h5 {
-    color: var(--primary-color) !important;
-    opacity: 0.9;
-}
-
-#skills .card:hover {
-    border: 2px solid var(--link-color-glow);
-    transition: .3s;
-    filter:contrast(1.1) saturate(1.1);
-
-}
-
-#skills .card:hover .card-text{
-    color: var(--link-color-glow) !important;
-    opacity: 0.9;
-}
-
-#skills .card:hover h5{
-    opacity: 1;
-    color: var(--primary-color) !important;
-}    
-
-#skills .card:focus {
-    border: 2px solid var(--text-color);
-    transition: .3s;
-}
-
-#skills .card-text {
-    background-color: var(--secondary-color) !important;
-    color: var(--text-secondary-color) !important;
-}
-
 
 /* Achievements */
 
